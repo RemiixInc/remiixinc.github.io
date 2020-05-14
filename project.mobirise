@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-05-14_1109",
+    "name": "RemiixInc",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -32,6 +32,14 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.3",
     "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/remiixwheel.gif",
+    "imageResize": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
     "uniqCompNum": 3,
     "versionPublish": "4.12.3"
   },
@@ -39,7 +47,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "RemiixInc",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
