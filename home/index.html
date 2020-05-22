@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <link
+    rel="shortcut icon"
+    href="https://cdn.glitch.com/ae8eb91e-2d3d-40f5-8f19-46285904aff5%2Fhello-extensions.png?v=1589868964579"
+    type="image/x-icon"
+  />
+  <link
+    rel="icon"
+    href="https://cdn.glitch.com/ae8eb91e-2d3d-40f5-8f19-46285904aff5%2Fhello-extensions.png?v=1589868964579"
+    type="image/x-icon"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    img {
+      filter: drop-shadow(1px 1px 0.6px #666666);
+    }
+    span {
+      text-shadow: 1px 1px 3px #666666;
+    }
+    html,
+    body,
+    .container {
+      height: 100%;
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+    }
+
+    .container > p {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin-top: -9px;
+    }
+    body {
+      margin: 0 auto;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      vertical-align: middle;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url("https://images.unsplash.com/photo-1543273222-723793a90d81?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      width: 460px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 24px;
+      font-size: 14px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      width: 42%;
+    }
+
+    .button1 {
+      background-color: #00ace6;
+    }
+    .button2 {
+      background-color: #0099cc;
+    }
+    .button3 {
+      background-color: #007399;
+    }
+    .button4 {
+      background-color: #004d66;
+    }
+    .button5 {
+      background-color: #002633;
+    }
+
+    .button:hover {
+      background-color: #555555;
+      transition-duration: 0.3s;
+    }
+
+    .button:active {
+      background-color: #111111;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+
+    input[type="text"],
+    select {
+      width: 220px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Home Control</title>
+    <meta name="description" content="Go Away" />
+    <meta name="keywords" content="" />
+    <meta name="title" content="" />
+  </head>
+  <body class="background">
+    <div
+      style="padding-left: 5vh; padding-right: 5vh; padding-bottom: 2vh; padding-top: 0vh; text-align: center;"
+    >
+      <div id="header"></div>
+      <div id="container">
+        <div style="align: center;">
+          <div class="container">
+            <div>
+              <a
+                href=""
+                id="time_is_link"
+                rel="nofollow"
+                style="font-size:26px;color:#FFFFFF"
+              ></a>
+              <span
+                id="Melbourne_z609"
+                style="font-size:26px;color:#FFFFFF"
+              ></span>
+              <script src="http://kieranotsmaher.glitch.me/clock.js"></script>
+              <script>
+                time_is_widget.init({
+                  Melbourne_z609: { time_format: "12hours:minutesAMPM" }
+                });
+              </script>
+              <br>
+              <span>
+                <a
+                  href="https://www.weatherwx.com/free_weather_on_for_your_website.html"
+                  target="_blank"
+                  ><img
+                    style="width: 70%;"
+                    src="https://www.weatherwx.com/forecast.php?forecast=hourly&pands=melbourne,,au&config=png&alt=hwitransparentwwwmet&hwvbg=transparent"
+                    alt="Melbourne Weather"
+                /></a>
+              </span>
+              <br /><br />
+              <button id="white" class="button button1">White</button>
+              <button id="desk" class="button button1">Desk</button>
+              <br /><br />
+              <button id="night" class="button button1">Night</button>
+              <button id="party" class="button button1">Party</button>
+              <br /><br />
+              <button id="on" class="button button2">On</button>
+              <button id="off" class="button button2">Off</button>
+              <br /><br />
+              <button id="lighton" class="button button3">Light On</button>
+              <button id="lightoff" class="button button3">Light Off</button>
+              <br /><br />
+              <button id="desklampon" class="button button4">
+                Desk Lamp On
+              </button>
+              <button id="desklampoff" class="button button4">
+                Desk Lamp Off
+              </button>
+              <br /><br />
+              <button id="bedlampon" class="button button4">Bed Lamp On</button>
+              <button id="bedlampoff" class="button button4">
+                Bed Lamp Off
+              </button>
+              <br /><br />
+              <button id="deskstripon" class="button button5">
+                Desk Strip On
+              </button>
+              <button id="deskstripoff" class="button button5">
+                Desk Strip Off
+              </button>
+              <br /><br />
+              <button id="bedstripon" class="button button5">
+                Bed Strip On
+              </button>
+              <button id="bedstripoff" class="button button5">
+                Bed Strip Off
+              </button>
+            </div>
+            <center></center>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script></script>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
