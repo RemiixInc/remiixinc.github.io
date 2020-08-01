@@ -715,8 +715,8 @@ section.lazy-placeholder:after {
 }
 .cid-rYV9gqlejX {
   padding-top: 60px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
+  padding-bottom: 30px;
+  background-color: #282828;
 }
 .cid-rYV9gqlejX .mbr-section-subtitle {
   color: #767676;
@@ -771,6 +771,9 @@ section.lazy-placeholder:after {
     width: 100% !important;
     height: auto !important;
   }
+}
+.cid-rYV9gqlejX H2 {
+  color: #ffffff;
 }
 .cid-s6oR4QxeQX {
   padding-top: 45px;
