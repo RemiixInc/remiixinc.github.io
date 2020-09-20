@@ -53,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Press+Start+2P:400"
       }
     ],
-    "favicon": "@PROJECT_PATH@/assets/images/remiixwheel.gif",
+    "favicon": "@PROJECT_PATH@/assets/images/remiix.png",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
