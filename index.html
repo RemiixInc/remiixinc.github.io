@@ -18,6 +18,20 @@
 <link rel="stylesheet" href="./src/essential-icons.css">
 </head>
 <body class="diag" style="background-size: 100%; background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);">
+    <script type="text/javascript">
+    let i=0;
+    const txt = 'RemiixInc'
+    const speed = 100;
+
+    function type () {
+      document.getElementById("glitch").innerHTML  += txt.charAt(i)
+        i++
+        setTimeout(type,speed)
+    }
+
+    setTimeout(type, speed)
+    // type()
+  </script>
     <div class="loader-wrapper" style="display: none;">
     <div class="loader" style="top: 0px; left: 0px; width: 100%; height: 100vh; display: none;"></div>
 </div>
