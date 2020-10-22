@@ -18,20 +18,23 @@
 <link rel="stylesheet" href="./src/essential-icons.css">
 </head>
 <body class="diag" style="background-size: 100%; background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);">
-    <script type="text/javascript">
-    let i=0;
-    const txt = 'RemiixInc'
-    const speed = 100;
-
-    function type () {
-      document.getElementById("glitch").innerHTML  += txt.charAt(i)
-        i++
-        setTimeout(type,speed)
-    }
-
-    setTimeout(type, speed)
-    type()
-  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.birds.min.js"></script>
+<script>
+VANTA.NET({
+  el: "#your-element-selector",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x553fff,
+  backgroundColor: 0x24242f,
+  points: 12.00
+})
+</script>
     <div class="loader-wrapper" style="display: none;">
     <div class="loader" style="top: 0px; left: 0px; width: 100%; height: 100vh; display: none;"></div>
 </div>
